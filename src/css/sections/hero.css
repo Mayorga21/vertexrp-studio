@@ -1,0 +1,12 @@
+/* Hero */
+.hero { background: var(--surface); }
+.hero .wrap { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 48px; align-items: center; padding-block: clamp(40px, 7vw, 88px); }
+.eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-text); margin-bottom: 20px; }
+.hero h1 { font-size: clamp(38px, 6vw, 68px); font-weight: 800; }
+.hero .lead { font-size: clamp(17px, 2vw, 20px); color: var(--ink); margin-top: 24px; max-width: 34em; }
+.actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; }
+.trust { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 32px 0 0; padding: 0; list-style: none; font-size: 14px; font-weight: 500; color: var(--muted); }
+.trust li::before { content: ""; display: inline-block; width: 8px; height: 8px; background: var(--hot); margin-right: 8px; }
+.mesh { background: var(--band); color: var(--on-band); padding: 24px; margin: 0; }
+.mesh svg { display: block; width: 100%; height: auto; max-height: 340px; }
+.mesh figcaption { font-size: 13px; color: var(--band-muted); margin-top: 12px; }

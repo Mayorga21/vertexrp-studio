@@ -1,0 +1,33 @@
+/* Tokens de diseño: colores, tipografía y espacios. Tema claro y oscuro. */
+:root {
+  --bg: #FFFFFF;
+  --surface: #F2F1EE;
+  --ink: #1C1F26;
+  --muted: #4A4F5A;
+  --line: #C9C7C1;
+  --btn: #C2410C;
+  --btn-hover: #9A3412;
+  --on-btn: #FFFFFF;
+  --accent-text: #C2410C;
+  --band: #1C1F26;
+  --on-band: #FFFFFF;
+  --band-muted: #D6D8DD;
+  --band-line: #3A3F4B;
+  --hot: #E8590C;
+  --stage: #F2F1EE;
+  --field: #FFFFFF;
+  --ok: #2F6B3A;
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --gutter: clamp(16px, 4vw, 48px);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #13151A; --surface: #1C1F26; --ink: #F2F1EE; --muted: #B4B8C1; --line: #3A3F4B;
+    --accent-text: #F2824A; --band: #0B0C0F; --field: #13151A; --ok: #7CC48A; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #13151A; --surface: #1C1F26; --ink: #F2F1EE; --muted: #B4B8C1; --line: #3A3F4B;
+  --accent-text: #F2824A; --band: #0B0C0F; --field: #13151A; --ok: #7CC48A; color-scheme: dark;
+}

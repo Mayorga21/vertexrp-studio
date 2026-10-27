@@ -1,0 +1,3 @@
+/* Solicitar encargo */
+.req { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 56px; margin-top: 40px; align-items: start; }
+.form { display: flex; flex-direction: column; gap: 24px; }

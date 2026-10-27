@@ -1,0 +1,9 @@
+/* FAQ */
+.faq { background: var(--surface); }
+.qa { max-width: 820px; margin-top: 32px; border-top: 1px solid var(--line); }
+.qa details { border-bottom: 1px solid var(--line); }
+.qa summary { cursor: pointer; font-weight: 600; font-size: 17px; padding: 18px 0; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after { content: "+"; font-size: 24px; line-height: 1; color: var(--accent-text); }
+.qa details[open] summary::after { content: "\2212"; }
+.qa details p { color: var(--muted); padding: 0 0 20px; max-width: 42em; }

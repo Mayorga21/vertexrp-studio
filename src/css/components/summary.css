@@ -1,0 +1,6 @@
+.summary { background: var(--surface); padding: 32px; }
+.summary h3 { font-size: 22px; font-weight: 700; margin-bottom: 16px; }
+.summary dl { margin: 0; display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; }
+.summary dt { color: var(--muted); }
+.summary dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; }
+.summary ul { margin: 20px 0 0; padding-left: 20px; color: var(--muted); font-size: 15px; display: grid; gap: 8px; }

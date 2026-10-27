@@ -1,0 +1,7 @@
+/* Process band */
+.band { background: var(--band); color: var(--on-band); }
+.band .sub { color: var(--band-muted); }
+.steps { list-style: none; padding: 0; margin: 40px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 32px; }
+.step b { display: block; font-size: 44px; font-weight: 800; color: var(--hot); line-height: 1; margin-bottom: 12px; font-variant-numeric: tabular-nums; }
+.step h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; letter-spacing: 0; }
+.step p { color: var(--band-muted); font-size: 15px; }

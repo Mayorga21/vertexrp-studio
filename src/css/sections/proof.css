@@ -1,0 +1,11 @@
+/* Trust */
+.proof { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 48px; margin-top: 40px; }
+.proof h3 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.proof p { color: var(--muted); }
+.stages { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.stages li { display: grid; grid-template-columns: 32px 1fr auto; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
+.stages .n { font-weight: 700; color: var(--accent-text); font-variant-numeric: tabular-nums; }
+.stages .st { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.stages .done .st { color: var(--ok); }
+.stages .now .st { color: var(--accent-text); }
+.stages-note { font-size: 13px; color: var(--muted); margin-top: 12px; }

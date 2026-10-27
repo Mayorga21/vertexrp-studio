@@ -1,0 +1,19 @@
+/* Catalog */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 32px; margin-top: 40px; }
+.card { border: 1px solid var(--line); display: flex; flex-direction: column; background: var(--bg); min-width: 0; }
+.stage { background: var(--stage); display: grid; place-items: center; height: 230px; }
+.stage svg { height: 78%; width: auto; max-width: 90%; }
+.card-body { padding: 24px; display: flex; flex-direction: column; gap: 16px; flex: 1; }
+.card h3 { font-size: 24px; font-weight: 700; }
+.card p { color: var(--muted); }
+.swatches { display: flex; flex-wrap: wrap; gap: 8px; border: 0; padding: 0; margin: 0; }
+.swatches legend { font-size: 14px; font-weight: 600; padding: 0; margin-bottom: 8px; }
+.sw {
+  font: inherit; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  padding: 8px 12px; background: var(--bg); color: var(--ink); border: 1px solid var(--line);
+}
+.sw i { width: 14px; height: 14px; display: inline-block; border: 1px solid rgba(0,0,0,.35); }
+.sw[aria-pressed="true"] { border: 2px solid var(--btn); padding: 7px 11px; }
+.buy { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: auto; padding-top: 8px; }
+.price { font-size: 28px; font-weight: 700; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
+.price small { font-size: 13px; font-weight: 500; color: var(--muted); display: block; letter-spacing: 0; }

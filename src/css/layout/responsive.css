@@ -1,0 +1,5 @@
+/* Ajustes para pantallas angostas */
+@media (max-width: 860px) {
+  .hero .wrap, .req { grid-template-columns: 1fr; gap: 32px; }
+  .nav { gap: 16px; }
+}
